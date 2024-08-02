@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/e5000c9c-39d6-4e5c-a9c7-c0103c3a49ad)
 
-This challenge focuses on analyzing and organizing data in a data mart to derive actionable insights.
+This case study focuses on building and analyzing a data mart— a specialized database designed to support business decisions by consolidating and organizing data for specific analytical purposes.
 
 # BUSINESS PROBLEM
 
@@ -18,13 +18,12 @@ What was the quantifiable impact of the changes introduced in June 2020?
 Which platform, region, segment and customer types were the most impacted by this change?
 What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?
 
-# CHALLENGE OVERVIEW
+# OBJECTIVE
 
-The goal of this case study is to:
-
-1. Create a data mart to store and analyze business data.
-2. Use SQL to perform various analyses and derive business insights.
-
+The main objectives of this case study are:
+1. Design a Data Mart: Create a data mart schema that efficiently organizes data for business analysis.
+2. Implement ETL Processes: Develop ETL (Extract, Transform, Load) procedures to populate the data mart with relevant data.
+3. Analyze Data with SQL: Write SQL queries to extract insights, identify trends, and generate reports that support business decision-making.
 # AVAILABLE DATA
 
 For this case study there is only a single table: data_mart.weekly_sales
@@ -44,7 +43,7 @@ The columns are pretty self-explanatory based on the column names but here are s
 
 Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
 
-# Resources
+# RESOURCES
 
 1. [8 Week SQL Challenge](https://8weeksqlchallenge.com/) - Official website with all case studies.
 2. [Case Study 5: Data Mart](https://8weeksqlchallenge.com/case-study-5/) - Direct link to the case study details.
