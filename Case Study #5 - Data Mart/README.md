@@ -1,6 +1,6 @@
 # CASE STUDY #5 - DATA MART
 
-![image](https://github.com/user-attachments/assets/e5000c9c-39d6-4e5c-a9c7-c0103c3a49ad)
+<img width="361" alt="image" src="https://github.com/user-attachments/assets/69b79fc3-a390-48c2-87c3-76fcb8b67dc5">
 
 This case study focuses on building and analyzing a data mart— a specialized database designed to support business decisions by consolidating and organizing data for specific analytical purposes.
 
@@ -30,7 +30,8 @@ For this case study there is only a single table: data_mart.weekly_sales
 
 # ENTITY RELATIONSHIP DIAGRAM
 
-![image](https://github.com/user-attachments/assets/f489ab05-d06d-46aa-a0f9-1dac15a03b86)
+![image](https://github.com/user-attachments/assets/b33b0759-e9cd-4e3d-a3ef-e4c361cdd6aa)
+
 
 # COLUMN DICTIONARY
 
