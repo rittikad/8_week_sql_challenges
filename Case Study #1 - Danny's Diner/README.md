@@ -1,51 +1,58 @@
-# CASE STUDY #5 - DATA MART
+# CASE STUDY #1 - DANNY'S DINER
 
-<img width="361" alt="image" src="(https://8weeksqlchallenge.com/images/case-study-designs/1.png)">
+<img width="361" alt="image" src="![image](https://github.com/user-attachments/assets/e9255525-a8b9-409f-b81a-1dd843317d58)
+">
+# INTRODUCTION
 
-This case study focuses on building and analyzing a data mart— a specialized database designed to support business decisions by consolidating and organizing data for specific analytical purposes.
+Danny's Diner, a charming restaurant launched in early 2021 by culinary enthusiast Danny, specializes in his three favorite Japanese dishes: sushi, curry, and ramen. Despite its appealing concept, the diner faces challenges in its initial months, struggling to leverage the basic sales data it has collected. This case study examines the current operational hurdles faced by Danny's Diner and explores strategies to utilize data-driven insights for improving efficiency, enhancing customer satisfaction, and ensuring long-term success in a competitive market.
 
 # BUSINESS PROBLEM
 
-Data Mart is Danny’s latest venture and after running international operations for his online supermarket that specialises in fresh produce - Danny is asking for your support to analyse his sales performance.
+Danny's Diner, a newly established restaurant specializing in Japanese cuisine, is struggling to optimize its operations and enhance customer experience due to a lack of actionable insights from its customer data. The diner has collected some basic sales information, but it does not know how to analyze this data effectively to answer critical questions about customer behavior.
 
-In June 2020 - large scale supply changes were made at Data Mart. All Data Mart products now use sustainable packaging methods in every single step from the farm all the way to the customer.
+**Key Challenges**:
 
-Danny needs your help to quantify the impact of this change on the sales performance for Data Mart and it’s separate business areas.
+**1. Understanding Customer Behavior**: Danny lacks insight into customer visiting patterns, spending habits, and preferences for menu items. Without this understanding, it's difficult to tailor services or offerings to meet customer needs effectively.
 
-The key business question he wants you to help him answer are the following:
+**2. Loyalty Program Effectiveness**: Danny is unsure if the current customer loyalty program is meeting its goals or if it should be expanded. There is insufficient data to evaluate customer engagement and spending trends related to loyalty program members.
 
-What was the quantifiable impact of the changes introduced in June 2020?
-Which platform, region, segment and customer types were the most impacted by this change?
-What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?
+**3. Data Utilization**: Although basic datasets exist (sales, menu, members), Danny's team lacks the expertise to analyze this data without requiring complex SQL queries, hindering their ability to derive actionable insights.
 
 # OBJECTIVE
 
-The main objectives of this case study are:
-1. Design a Data Mart: Create a data mart schema that efficiently organizes data for business analysis.
-2. Implement ETL Processes: Develop ETL (Extract, Transform, Load) procedures to populate the data mart with relevant data.
-3. Analyze Data with SQL: Write SQL queries to extract insights, identify trends, and generate reports that support business decision-making.
-   
-# AVAILABLE DATA
+To address these challenges, Danny aims to:
 
-For this case study there is only a single table: *data_mart.weekly_sales*
+1. Analyze customer data to uncover insights about visiting patterns, spending, and popular menu items.
+2. Use these insights to enhance customer experience and potentially expand the existing loyalty program.
+3. Generate simplified datasets for easier inspection by his team, enabling more effective decision-making.
+   
+# AVALILABLE DATASET
+
+For this case study there are three tables: *dannys_diner.sales*, *dannys_diner.menu*, *dannys_diner.members*
+
+**a. SALES DATASET**
+
+The **sales table** captures all **customer_id** level purchases with an corresponding **order_date** and **product_id** information for when and what menu items were ordered.
+
+![image](https://github.com/user-attachments/assets/9093a29a-d10b-40b1-8fb8-862cfda9dd90)
+
+**b. MENU DATASET**
+
+The **menu table** maps the product_id to the actual **product_name** and **price** of each menu item.
+
+![image](https://github.com/user-attachments/assets/5d79d877-7806-489a-abe5-669535d8b52d)
+
+**c. MEMBERS DATASET**
+
+The final **members table** captures the **join_date** when a **customer_id** joined the beta version of the Danny’s Diner loyalty program.
+
+![image](https://github.com/user-attachments/assets/8dfff157-05e1-44b5-a126-c824a557ef5a)
 
 # ENTITY RELATIONSHIP DIAGRAM
 
-![image](https://github.com/user-attachments/assets/b33b0759-e9cd-4e3d-a3ef-e4c361cdd6aa)
-
-
-# COLUMN DICTIONARY
-
-The columns are pretty self-explanatory based on the column names but here are some further details about the dataset:
-
-1. Data Mart has international operations using a multi-**region** strategy.
-2. Data Mart has both, a retail and online **platform** in the form of a Shopify store front to serve their customers.
-3. Customer **segment** and **customer_type** data relates to personal age and demographics information that is shared with Data Mart.
-4. **transactions** is the count of unique purchases made through Data Mart and *sales* is the actual dollar amount of purchases.
-
-Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a **week_date** value which represents the start of the sales week.
+![image](https://github.com/user-attachments/assets/10a5a471-b616-44f5-9bb8-e1c1b28bd1d6)
 
 # RESOURCES
 
 1. [8 Week SQL Challenge](https://8weeksqlchallenge.com/) - Official website with all case studies.
-2. [Case Study 5: Data Mart](https://8weeksqlchallenge.com/case-study-5/) - Direct link to the case study details.
+2. [https://8weeksqlchallenge.com/case-study-1/] - Direct link to the case study details.
