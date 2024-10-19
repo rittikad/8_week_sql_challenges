@@ -55,4 +55,4 @@ The final **members table** captures the **join_date** when a **customer_id** jo
 # RESOURCES
 
 1. [8 Week SQL Challenge](https://8weeksqlchallenge.com/) - Official website with all case studies.
-2. [https://8weeksqlchallenge.com/case-study-1/] - Direct link to the case study details.
+2. [https://8weeksqlchallenge.com/case-study-1/) - Direct link to the case study details.
