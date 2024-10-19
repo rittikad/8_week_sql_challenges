@@ -1,7 +1,7 @@
 # CASE STUDY #1 - DANNY'S DINER
 
-<img width="361" alt="image" src="![image](https://github.com/user-attachments/assets/e9255525-a8b9-409f-b81a-1dd843317d58)
-">
+![image](https://github.com/user-attachments/assets/ce374cce-c9c3-447c-be97-9c42d65b054e)
+
 # INTRODUCTION
 
 Danny's Diner, a charming restaurant launched in early 2021 by culinary enthusiast Danny, specializes in his three favorite Japanese dishes: sushi, curry, and ramen. Despite its appealing concept, the diner faces challenges in its initial months, struggling to leverage the basic sales data it has collected. This case study examines the current operational hurdles faced by Danny's Diner and explores strategies to utilize data-driven insights for improving efficiency, enhancing customer satisfaction, and ensuring long-term success in a competitive market.
@@ -26,7 +26,7 @@ To address these challenges, Danny aims to:
 2. Use these insights to enhance customer experience and potentially expand the existing loyalty program.
 3. Generate simplified datasets for easier inspection by his team, enabling more effective decision-making.
    
-# AVALILABLE DATASET
+# AVAILABLE DATASET
 
 For this case study there are three tables: *dannys_diner.sales*, *dannys_diner.menu*, *dannys_diner.members*
 
