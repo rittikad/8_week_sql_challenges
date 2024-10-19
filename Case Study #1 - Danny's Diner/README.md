@@ -1,6 +1,6 @@
 # CASE STUDY #5 - DATA MART
 
-<img width="361" alt="image" src="[https://github.com/user-attachments/assets/69b79fc3-a390-48c2-87c3-76fcb8b67dc5](https://8weeksqlchallenge.com/images/case-study-designs/1.png)">
+<img width="361" alt="image" src="(https://8weeksqlchallenge.com/images/case-study-designs/1.png)">
 
 This case study focuses on building and analyzing a data mart— a specialized database designed to support business decisions by consolidating and organizing data for specific analytical purposes.
 
