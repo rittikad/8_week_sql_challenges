@@ -62,7 +62,7 @@ The analysis uses **SQL queries** to address key business questions:
 - Points calculations for loyalty program rules  
 - Ranking of purchases for member insights  
 
-All SQL queries with **outputs** are included in [`dannys_diner.sql`](Danny_Diner.sql).
+All SQL queries with **outputs** are included in [`dannys_diner.sql`](dannys_diner.sql).
 
 ---
 
