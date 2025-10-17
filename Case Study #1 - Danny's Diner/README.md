@@ -52,6 +52,50 @@ The final **members table** captures the **join_date** when a **customer_id** jo
 
 ![image](https://github.com/user-attachments/assets/10a5a471-b616-44f5-9bb8-e1c1b28bd1d6)
 
+# SOLUTION / APPROACH
+
+The analysis uses **SQL queries** to address key business questions:
+
+- Total spending and visit frequency per customer  
+- First and most popular items purchased  
+- Member vs. non-member purchase analysis  
+- Points calculations for loyalty program rules  
+- Ranking of purchases for member insights  
+
+All SQL queries with **sample outputs** are included in [`Danny_Diner.sql`](Danny_Diner.sql).
+
+---
+
+# SAMPLE OUTPUTS
+
+**Total Amount Spent by Customer (Q1)**
+
+| customer_id | total_amount |
+|-------------|--------------|
+| C           | 36           |
+| B           | 74           |
+| A           | 76           |
+
+**Most Popular Item per Customer (Q5)**
+
+| customer_id | product_name |
+|-------------|--------------|
+| A           | ramen        |
+| B           | curry        |
+| B           | sushi        |
+| B           | ramen        |
+| C           | ramen        |
+
+**Member Flag Table (Bonus Q11)**
+
+| customer_id | order_date | product_name | price | member |
+|-------------|------------|--------------|-------|--------|
+| A           | 2021-01-01 | sushi        | 10    | N      |
+| A           | 2021-01-07 | curry        | 15    | Y      |
+| B           | 2021-01-11 | sushi        | 10    | Y      |
+
+---
+
 # RESOURCES
 
 1. [8 Week SQL Challenge](https://8weeksqlchallenge.com/) - Official website with all case studies.
